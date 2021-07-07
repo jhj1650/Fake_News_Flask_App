@@ -4,9 +4,10 @@ def get_prediction(feature_values):
     """ Given a list of feature values, return a prediction made by the model"""
     
     loaded_model = un_pickle_model()
-    
+    print(feature_values)
     # Model is expecting a list of lists, and returns a list of predictions
     predictions = loaded_model.predict(feature_values)
+    print(predictions)
     # We are only making a single prediction, so return the 0-th value
     return predictions[0]
 

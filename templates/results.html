@@ -26,11 +26,11 @@
                 The model's prediction is
               </td>
               <td class="align-middle" style="width: 33%; text-align: center; font-size: 3em;">
-                {{ prediction }}
-              </td>
-              <!-- Customize this text to describe the result -->
-              <td class="align-middle" style="width: 33%">
-                hundreds of spring antelope fawns
+                {% if prediction == 0 %}
+                  <p>Real Article</p>
+                {% else %}
+                  <p>Fake Article</p>
+                {% endif %}
               </td>
             </tr>
           </tbody>
@@ -38,12 +38,6 @@
         <hr>
         <div class="row">
           <div class="col" style="text-align: center;">
-            <!-- 
-              Replace this with something relevant, maybe a freshly-generated
-              matplotlib graph?
-            -->
-            <img src="{{ url_for('static', filename='upward_sloping_chart.png') }}" 
-              alt="upward sloping chart" width="50%">
           </div>
         </div>
         <hr>

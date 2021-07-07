@@ -1,17 +1,18 @@
 certifi==2020.6.20
-click==7.1.2
-Flask==1.1.2
-itsdangerous==1.1.0
-Jinja2==2.11.2
-joblib==0.16.0
-MarkupSafe==1.1.1
-numpy==1.19.1
-pandas==1.1.4
+click @ file:///Users/runner/miniforge3/conda-bld/click_1621503850566/work
+Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1621629915293/work
+imbalanced-learn @ file:///home/conda/feedstock_root/build_artifacts/imbalanced-learn_1613662486985/work
+itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1621360792037/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1621419064915/work
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1612898609989/work
+MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1621455750847/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1624399908429/work
+pandas==1.2.5
 python-dateutil==2.8.1
-pytz==2020.4
-scikit-learn==0.23.2
-scipy==1.5.2
-six==1.15.0
-threadpoolctl==2.1.0
-waitress==1.4.4
-Werkzeug==1.0.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1612179539967/work
+scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1619628632127/work
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1624824941870/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+waitress @ file:///home/conda/feedstock_root/build_artifacts/waitress_1615198980306/work
+Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1621518206714/work
